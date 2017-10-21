@@ -1,0 +1,5 @@
+$times = array();
+foreach($info['sub'] as $k=>$areas) {	//数组排序			
+  $times[$k] = $areas['CREATE_TIME'];
+}
+array_multisort($times, SORT_ASC, $info['sub']);

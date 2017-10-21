@@ -33,7 +33,7 @@
 		header('Content-Disposition: attachment; filename='.$wordname.'');
 		@readfile(APP_WORD_PATH.$wordname);//获取下载文件的路径
 	}
-  /** 
+  /**  
 	 * 根据HTML代码获取word文档内容 
 	 * 创建一个本质为mht的文档，该函数会分析文件内容并从远程下载页面中的图片资源 
 	 * 该函数依赖于类MhtFileMaker 

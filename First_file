@@ -1,0 +1,8 @@
+## Create a new file
+1.mkdir (file name) 
+## Edit the file
+2. vim (file name)
+## Submit to local temporary storage area
+3.git add (file name)
+4.git commit -m " content"
+5.git push -u origin master
